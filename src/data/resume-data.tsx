@@ -21,7 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Tolulope Makinde",
-  initials: "BJ",
+  initials: "TM",
   location: "Nigeria",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
