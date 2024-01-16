@@ -33,7 +33,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "makinde1034@gmail.com",
-    // tel: "+2348145217416",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -56,8 +56,8 @@ export const RESUME_DATA = {
     {
       school: "Federal University Of Technology, Akure",
       degree: "Bachelor Of Engineering",
-      // start: "2007",
-      // end: "2010",
+      start: "",
+      end: "",
     },
   ],
   work: [
