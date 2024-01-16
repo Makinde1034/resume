@@ -20,259 +20,174 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Tolulope Makinde",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
+  location: "Nigeria",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Software developer with hands-on experience in building scalable applications.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "I’m a performance-driven software engineer with hands-on experience in building client-facing web and mobile applications.",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/D4E03AQGmiFcJ8A0g_A/profile-displayphoto-shrink_800_800/0/1686814194941?e=1710979200&v=beta&t=YJ8vNbJ0jwmADIjX4v8Gm_TkKzm0hDkGJg2a1CoExKs",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "makinde1034@gmail.com",
+    // tel: "+2348145217416",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Makinde1034",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/tolulope-makinde-20a886108/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/Bryan_blac",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Federal University Of Technology, Akure",
+      degree: "Bachelor Of Engineering",
+      // start: "2007",
+      // end: "2010",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Inverse",
+      link: "https://inverse.wtf",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Frontend Engineer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Inverse allows creators to easily launch digital collectibles, Implement components from design with attention to details, migrate component from client to server to improve load time. Technologies: Nextjs, React Native,TypeScript, GraphQL, Zustand, Design systems (shadecn/ui)",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Abacus",
+      link: "https://trustabacus.app",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Frontend Engineer",
+      logo: ParabolLogo,
+      start: "2022",
+      end: "2023",
+      description:
+        "Design and develop user interface and resuable components, maintained and contributed to high quality React Native & Nextjs projects, implement & maintain features on the abacus app implemented performance improvement technics like code splitting and dynamic imports to improve app performance Technologies: React Native, Next, TypeScript, GraphQL, RTK-Query, Redux, Site Observability(sentry), Design systems",
+    },
+    {
+      company: "Dotcircle Labs",
+      link: "https://dotcirclelabs.com",
+      badges: ["Remote"],
+      title: "Lead Frontend Engineer",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2021",
+      end: "2023",
+      description:
+        "API and smart contract integration,  Led the front-end team to build a deflationary, fully decentralized ownership yield farm/lending protocol where participants earn as an owner of the network. (animalfarm.app), worked on porche vehicle dealer as a service application. Technologies: Reactjs, Vuejs, TypeScript, Tailwind css, Porsche Design System",
+    },
+    {
+      company: "Sterling Bank (Gomoney)",
+      link: "https://gomoney.global/home/",
+      badges: ["Remote"],
+      title: "Frontend Engineer",
+      logo: JojoMobileLogo,
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Produce responsive cross-browser, and accessible web components from designs, Identified and implemented better user interactions across the product, Provided mentoring and guidance to colleagues.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Pacavel",
+      link: "https://www.pacavel.com",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      title: "Software developer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2019",
+      end: "2021",
+      description: "Developed Pacavel landing page and blogging platform, Optimized website to improve SEO ranking on search engines, built reusable Reactjs components to improve development time.",
     },
   ],
   skills: [
-    "JavaScript",
+    "JavaScript","Golang",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "React/Next.js",
+    "React native",
+    "Vue.js",
+    
     "GraphQL",
-    "Relay",
-    "WebRTC",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Abacus",
       techStack: [
-        "Side Project",
+        "React native",
         "TypeScript",
         "Next.js",
-        "Vite",
+        "RTK-query",
         "GraphQL",
-        "WebRTC",
+        
       ],
-      description: "A platform to build and grow your online business",
+      description: "Abacus helps users better track, spend & manage money by unifying all thier accounts in a single app.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "trustabacus.app",
+        href: "https://trustabacus.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Inverse",
+      techStack: ["TypeScript", "Next.js", "web3","Zustand","Redux", "Apollo GraphQL"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Inverse is the easiest way to launch digital collectibles.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "inverse",
+        href: "https://inverse.wtf/",
       },
     },
+   
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Animal farm",
+      techStack: ["Nextjs", "Ethersjs","scss", "smart contracts"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
+        "Decentralized yield aggregating platform.",
       logo: AmbitLogo,
+      link:{
+        label : "Animal farm",
+        href:"https://animalfarm.app/"
+      }
     },
     {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Surecheck",
+      techStack: ["Golang", "Vuejs"],
       description:
-        "Android application that helps with booking a table in a restaurants",
+        "Surecheck helps verify if emails exist using thier domain.",
       logo: BimLogo,
+      link:{
+        label : "Surecheck.netlify.app",
+        href:"https://surecheck.netlify.app/"
+      }
     },
     {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Diyo",
+      techStack: ["Reactjs","Typescript","Stripe.js"],
       description:
-        "Video streaming mobile application for Canal Digital subscribers",
+        "Diyo helps launch impactful outdoor billboard campaigns anywhere in the world in less than 60 seconds",
       logo: CDGOLogo,
+      link:{
+        label : "diyo.ca",
+        href:"https://diyo.ca/"
+      }
     },
+    
   ],
 } as const;
